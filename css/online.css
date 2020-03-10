@@ -1,0 +1,41 @@
+.clickMe {
+	background-color:#ffffff00;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:"書法";
+	font-size:70px;
+	padding:12px 37px;
+	text-decoration:none;
+}
+.clickMe:hover {
+	background-color:#aa652498;
+}
+.clickMe:active {
+	position:relative;
+	top:1px;
+}
+.topic{
+    width: 100%;
+    height: 100%;
+    max-width:  100%;
+    display:  table;
+    }
+    .pic{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    font-family: "書法";
+    font-size: 20px;
+    }
+body{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+@font-face{
+    font-family: "書法";
+    src: url(../font/KouzanMouhituFontOTF.otf);
+}

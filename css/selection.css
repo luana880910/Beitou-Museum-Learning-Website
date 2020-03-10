@@ -1,0 +1,76 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(255, 255, 255, 0.6); 
+  }
+ 
+.question{
+    width: 97%;
+    font-size: 40px;
+    text-align: center;
+}
+.point{
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+.pointnum{
+    font-family: "Slant";
+}
+
+.nextButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+	background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+	background-color:#d0451b;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:18px 23px;
+	
+}
+.nextButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+	background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+	background-color:#bc3315;
+}
+.nextButton:active {
+	position:relative;
+	top:1px;
+}
+.button{
+    width: 97%;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    color: #ffffff
+}
+.pp{
+    font-size: 30px;
+}
+.cntr{
+
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+}
+
+@font-face{
+    font-family: "Slant";
+    src: url(../font/SLANT.TTF);
+}

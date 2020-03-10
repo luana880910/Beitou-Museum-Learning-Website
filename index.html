@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/drop-down-menu.css">
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        
+        <div class="main"><img src="asset/backori.jpg" width="107%"></div>
+        <div class="blank"></div>
+        <div class="menu">
+                <ul class="drop-down-menu">   
+                    <li><a href="#" onclick="changePage(0);">北投文化館</a>
+                        <ul>
+                            <li><a href="#" onclick="changePage(1);">歷史沿革</a>
+                            </li>
+                            <li><a href="#" onclick="lightbox_open();">簡介影片</a>
+                            </li>
+                            <li><a href="#" onclick="changePage(3);">官方網站</a>
+                            </li>
+                            <li><a href="#" onclick="changePage(4);">新舊對照</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">知識園地</a>
+                        <ul>
+                            <li><a href="#" >文物館小教室</a>
+                                <ul>
+                                    <li><a href="#" onclick="changePage(5);">基本常識篇</a>
+                                    </li>
+                                    <li><a href="#" onclick="changePage(6);">歷史地理篇</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">百萬小學堂</a>
+                                <ul>
+                                    <li><a href="#" onclick="changePage(10);">是非對錯請搶答</a>
+                                    </li>
+                                    <!--<li><a href="#" onclick="changePage(11);">圖片名字連連看</a>
+                                    </li>-->
+                                    
+                                    <li><a href="#" onclick="changePage(12);">單選多選猜猜樂</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#" onclick="changePage(7);">補充教材</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#" onclick="changePage(20);">圖片欣賞</a>
+                    </li>
+                    <li><a href="#" onclick="changePage(21);">專題製作</a>
+                    </li>
+                    <li><a href="#" onclick="changePage(22);">聯絡我們</a>
+                    </li>
+                </ul>
+            </div>
+                <div class="blankse"></div>
+                <div class="frame">
+                    <iframe src="main.html" id="mainframe" style="border:0; left:0; right:0; bottom:0; width:87%; height:80%">?</iframe>
+                </div>
+                <div id="light">
+                    <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+                    <video id="VisaChipCardVideo" width="100%" height="100%" controls>
+                        <source src="asset/北投文化館.mp4" type="video/mp4"></video>
+                        </div>
+                <div id="fade" onClick="lightbox_close();"></div>
+                <div class="ii">圖片皆取自北投文物館官方網站</div>
+    </body>
+</html>

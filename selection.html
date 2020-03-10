@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/selection.css">
+
+        
+    </head>
+    <body>
+
+                <div class="question"><span id='questiono'>按下下方的開始按鍵開始測驗</span></div>
+                <div class="point">分數：<span class="pointnum" id='num'>0</span></div>
+                <div class="cntr">
+  
+                    <table class="pp">
+                        <tr>
+                            <td>
+                                <input type="radio" name="rdo" id="opt1" class="hidden" onclick="selectnum(1);"/>
+                                A) <span id='s1'></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="rdo" id="opt2" class="hidden" onclick="selectnum(2);"/>
+                                B) <span id='s2'>test</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="rdo" id="opt3" class="hidden" onclick="selectnum(3);"/>
+                                C) <span id='s3'>test</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="rdo" id="opt4" class="hidden" onclick="selectnum(4);"/>
+                                D) <span id='s4'>test</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="button">
+                    <a  onclick="clickMe();" class="nextButton"><span id="buttontext">開始測驗！</span></a>
+                </div>     
+                <script src="/js/selection.js"></script>
+        
+    </body>
+</html>
