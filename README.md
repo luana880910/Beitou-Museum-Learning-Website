@@ -1,13 +1,13 @@
 # Beitou-Museum-Learning-Website
 Freshman project with dannylin
 
-使用方法
+## 使用方法
 點開index.html開啟你的北投文物館之旅
 
 
 
 
-分析(Analysis)
+## 分析(Analysis)
 
 -教學對象：小學生
 
@@ -18,14 +18,14 @@ Freshman project with dannylin
 -呈現方式：將內容製作網頁平台，讓學生不需受地理位置或環境之影響。
 
 
-設計(Design)
+## 設計(Design)
 
 -大綱擬定：以北投文物館之歷史為主，其交通、參訪注意事項、地理位置為輔。
 
 -培訓目標：使學生更能了解文物館之歷史並豐富學生的文化涵養。
 
 
-發展(Develop)
+## 發展(Develop)
 
 -課程表現形式：藉由電腦呈現大部分教學。
 
@@ -36,7 +36,7 @@ Freshman project with dannylin
 -回饋設計：小遊戲將給予學生分數，並在回答錯誤時及時給予回饋，以利學生即時了解錯誤的部分。
 
 
-評估(Evaluate)
+## 評估(Evaluate)
 
 -課程內容評估：簡單易懂，但內容稍嫌不足，比起當初預期期望。以及遊戲之中本有連連看之題組，因爲能力不足而成為小小的缺憾。
 
